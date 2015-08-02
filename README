@@ -1,9 +1,14 @@
 OpenSim.Email
 ===============
 
-This repository will hold the last known version of the OpenSim.Email module
-created by Fly-Man- in 2010/2011
+After setting up the module if you want to allow prims from other grids to communicate with prims on your grid you must
+go to http://osxchange.org/register.html and register your grid with the grid router system.
 
-At this moment, I have no clue if it's still compiling correctly with the current
-master of Opensim. But many people have asked if I would be able to put all 
-the modules I made in the past on Github.
+# Configure Module
+Please use the format below for your lsl email settings
+
+replace lsl.mygrid.com with lsl.yourdomainname.com
+
+host_domain_header_from=lsl.mygrid.com
+SMTP_internal_object_host=lsl.mygrid.com
+SMTP_host_domain_header_from=lsl.mygrid.com
