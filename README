@@ -1,10 +1,17 @@
-OpenSim.Email
-===============
+# OpenSim.Email
 
+
+
+
+# Configure Module
+
+
+# OpenSim-Addon-modules
 After setting up the module if you want to allow prims from other grids to communicate with prims on your grid you must
 go to http://osxchange.org/register.html and register your grid with the grid router system.
 
-# Configure Module
+
+#ServerReleaseNotes Module
 Please use the format below for your lsl email settings
 
 replace lsl.mygrid.com with lsl.yourdomainname.com
@@ -12,3 +19,7 @@ replace lsl.mygrid.com with lsl.yourdomainname.com
 host_domain_header_from=lsl.mygrid.com
 SMTP_internal_object_host=lsl.mygrid.com
 SMTP_host_domain_header_from=lsl.mygrid.com
+            
+            
+            
+# Roadmap
